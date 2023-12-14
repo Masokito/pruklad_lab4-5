@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/kai/IdeaProjects/laba8/laab6fiin/src</OriginalElement>
+  <nodes>
+    <node x="1214.0" y="967.0">command.AddTarufMob</node>
+    <node x="-105.0" y="670.0">taruf.Mob_sms_mms_inet_taruf</node>
+    <node x="-116.0" y="1091.0">menu.Menu</node>
+    <node x="-71.5" y="-15.0">taruf.Mob_taruf</node>
+    <node x="-113.5" y="494.0">taruf.Mob_sms_mms_taruf</node>
+    <node x="503.0" y="967.0">command.DeleteTaruf</node>
+    <node x="653.0" y="967.0">command.AddTarufMobSMS</node>
+    <node x="2122.0" y="967.0">command.FindTarufInPayrollRange</node>
+    <node x="1379.0" y="967.0">command.SaveInFile</node>
+    <node x="2355.0" y="967.0">command.AddTarufMobSMSMMSInet</node>
+    <node x="1127.5" y="863.0">command.Command</node>
+    <node x="302.0" y="967.0">command.ChangeTarufPayroll</node>
+    <node x="1894.0" y="967.0">command.AddTarufMobSMSMMS</node>
+    <node x="295.0" y="1091.0">App</node>
+    <node x="-116.0" y="318.0">taruf.Mob_sms_taruf</node>
+    <node x="847.0" y="967.0">command.ViewTarufs</node>
+    <node x="108.0" y="967.0">command.SortTarufByPayroll</node>
+    <node x="1523.0" y="967.0">command.StartMenuCommand</node>
+    <node x="-116.0" y="967.0">command.CountClientsCommand</node>
+    <node x="1732.0" y="967.0">command.LoadFromFile</node>
+    <node x="290.0" y="-15.0">tarufList.TarufList</node>
+    <node x="991.0" y="967.0">command.EndProgramCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="command.AddTarufMob" target="command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="1286.5" y="942.0" />
+      <point x="1189.5" y="942.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="taruf.Mob_sms_mms_taruf" target="taruf.Mob_sms_taruf" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+    <edge source="command.FindTarufInPayrollRange" target="command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="2228.5" y="942.0" />
+      <point x="1189.5" y="942.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="command.SortTarufByPayroll" target="command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="195.0" y="942.0" />
+      <point x="1189.5" y="942.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="taruf.Mob_sms_mms_inet_taruf" target="taruf.Mob_sms_mms_taruf" relationship="GENERALIZATION">
+      <point x="0.0" y="-74.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+    <edge source="command.ChangeTarufPayroll" target="command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="392.5" y="942.0" />
+      <point x="1189.5" y="942.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="command.EndProgramCommand" target="command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="1092.5" y="942.0" />
+      <point x="1189.5" y="942.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="command.DeleteTaruf" target="command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="568.0" y="942.0" />
+      <point x="1189.5" y="942.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="command.LoadFromFile" target="command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="1803.0" y="942.0" />
+      <point x="1189.5" y="942.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="command.StartMenuCommand" target="command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="1617.5" y="942.0" />
+      <point x="1189.5" y="942.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="command.ViewTarufs" target="command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="909.0" y="942.0" />
+      <point x="1189.5" y="942.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="command.SaveInFile" target="command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="1441.0" y="942.0" />
+      <point x="1189.5" y="942.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="command.AddTarufMobSMSMMSInet" target="command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="2471.5" y="942.0" />
+      <point x="1189.5" y="942.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="command.AddTarufMobSMS" target="command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="740.0" y="942.0" />
+      <point x="1189.5" y="942.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="command.CountClientsCommand" target="command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="-14.0" y="942.0" />
+      <point x="1189.5" y="942.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="command.AddTarufMobSMSMMS" target="command.Command" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="1998.0" y="942.0" />
+      <point x="1189.5" y="942.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="taruf.Mob_sms_taruf" target="taruf.Mob_taruf" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="0.0" y="141.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.25098347757671124" showDependencies="false" x="1246.0" y="620.4999999999999" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
